@@ -6,4 +6,31 @@ html {
 
 .homeimg {
   width: 100vw;
+  height: 99.5vh;
+}
+
+.desc {
+  position: absolute;
+  left: 5vh;
+  top: 40vh;
+  z-index: 1;
+  width: 40vw;
+  color: #f2bb4e;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+}
+
+.desc h1 {
+  font-size: 3rem;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.desc h2 {
+  font-size: 2rem;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.desc h3 {
+  font-size: 1.8rem;
+  text-shadow: black 0.1em 0.1em 0.2em;
 }

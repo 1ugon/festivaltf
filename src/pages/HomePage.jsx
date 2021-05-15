@@ -1,7 +1,7 @@
-import React, { useCallback, useState } from "react";
-import { useHistory } from "react-router-dom";
+import React, { useEffect, useState } from "react";
 
 import HomeImage from "../assets/homepage.jpg";
+import imageMapResize from "image-map-resizer";
 
 import "../styles/homepage.css";
 
@@ -16,11 +16,9 @@ const prog = [
 export default function HomePage() {
   const [showProg, setShowProg] = useState(false);
 
-  const history = useHistory();
-  const handleOnClick = useCallback(
-    (area) => history.push(`/room${area}`),
-    [history]
-  );
+  useEffect(() => {
+    imageMapResize();
+  });
 
   /*   const door = document.getElementsByClassName("door");
   door.addEventListener("mouseover", function hover() {
@@ -94,6 +92,25 @@ export default function HomePage() {
           shape="rect"
         />
       </map>
+      <div className="desc">
+        <h1>Bem vinde a nossa casa!</h1>
+        <h2>Clique em um cômodo para explorar esse espaço.</h2>
+        <br />
+        <h3>
+          O festival transfeminsita teve sua 1º Edição em março de 2020 com
+          organização de algumas repúblicas de Coimbra.
+        </h3>
+        <br />
+        <h3>
+          Ao longo de uma semana acontecem várias atividades como performances,
+          rodas de conversa, filmes, instalações, concertos, etc.
+        </h3>
+        <br />
+        <h3>
+          Tem como objetivo dar visibilidade a pessoas trans, não-binárias,
+          intersexo e mulheres cis.
+        </h3>
+      </div>
     </div>
   );
 }
