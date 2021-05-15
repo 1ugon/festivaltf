@@ -3,6 +3,11 @@ import { Switch, Route, Redirect } from "react-router-dom";
 
 import HomePage from "./pages/HomePage";
 import Room1 from "./pages/Room1";
+import Room2 from "./pages/Room2";
+import Room3 from "./pages/Room3";
+import Room4 from "./pages/Room4";
+import Room5 from "./pages/Room5";
+import Room6 from "./pages/Room6";
 import NotFound from "./pages/NotFound";
 
 export default function Routes() {
@@ -16,6 +21,21 @@ export default function Routes() {
       </Route>
       <Route exact path="/room1">
         <Room1 />
+      </Route>
+      <Route exact path="/room2">
+        <Room2 />
+      </Route>
+      <Route exact path="/room3">
+        <Room3 />
+      </Route>
+      <Route exact path="/room4">
+        <Room4 />
+      </Route>
+      <Route exact path="/room5">
+        <Room5 />
+      </Route>
+      <Route exact path="/room6">
+        <Room6 />
       </Route>
       <Route path="*">
         <NotFound />

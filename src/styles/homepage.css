@@ -4,13 +4,6 @@ html {
   width: 100%;
 }
 
-.home {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url(../assets/Home.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+.homeimg {
+  width: 100vw;
 }
