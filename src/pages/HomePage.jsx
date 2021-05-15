@@ -14,13 +14,13 @@ const prog = [
 ];
 
 export default function HomePage() {
-  const [showProg, setShowProg] = useState(false);
+  /* const [showProg, setShowProg] = useState(false); */
 
   const history = useHistory();
-  const handleOnClick = useCallback(
+  /*   const handleOnClick = useCallback(
     (area) => history.push(`/room${area}`),
     [history]
-  );
+  ); */
 
   /*   const door = document.getElementsByClassName("door");
   door.addEventListener("mouseover", function hover() {
@@ -36,7 +36,7 @@ export default function HomePage() {
 
   return (
     <div className="home">
-      <div className="prog">{showProg && <h2>{prog}</h2>}</div>
+      {/* <div className="prog">{showProg && <h2>{prog}</h2>}</div> */}
       <img
         className="homeimg"
         src={HomeImage}
@@ -80,7 +80,7 @@ export default function HomePage() {
           shape="poly"
         />
         <area
-          target="_blank"
+          target="_blank  "
           alt="room6"
           href="https://www.facebook.com/festivaltransfeminista/"
           coords="1532,219,1578,222,1580,336,1532,298"
