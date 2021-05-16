@@ -4,6 +4,10 @@ html {
   width: 100%;
 }
 
+.device {
+  display: none;
+}
+
 .homeimg {
   width: 100vw;
   height: 99.5vh;
@@ -33,4 +37,39 @@ html {
 .desc h3 {
   font-size: 1.8rem;
   text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.prog {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.8);
+  max-width: 40vw;
+  top: 50vh;
+  left: 5vw;
+  border-style: solid;
+  border-width: 1px;
+  z-index: 5;
+  padding: 3vh;
+}
+
+/* .roomlight {
+  
+} */
+
+@media all and (device-width: 1024px) and (device-height: 1366px) and (orientation: portrait) {
+  .homeimg {
+    display: none;
+  }
+}
+
+/* iPad */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+  .homeimg {
+    display: none;
+  }
+}
+
+@media (max-width: 1650px) {
+  .homeimg {
+    display: none;
+  }
 }
