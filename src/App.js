@@ -5,7 +5,7 @@ import "./styles/globalstyle.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <Routes />
     </BrowserRouter>
   );
