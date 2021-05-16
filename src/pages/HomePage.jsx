@@ -93,6 +93,9 @@ export default function HomePage() {
           shape="rect"
         />
       </map>
+      <h1 className="dev">
+        Por favor entre por um computador para visualizar o site, obrigado!
+      </h1>
       <div className="desc">
         <h1>Bem vinde a nossa casa!</h1>
         <h2>Clique em um cômodo para explorar esse espaço.</h2>

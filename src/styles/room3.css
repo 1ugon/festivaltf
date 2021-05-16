@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  width: 95vw;
+  padding: 3vh 5vh;
+  background-color: #7186d3a9;
+  bottom: 0;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar li {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--grey);
+  transition: 0.2s;
+  cursor: pointer;
+  text-decoration: none;
+  color: grey;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+}
+
+.navbar li:hover {
+  color: black;
+}
+
+.arts {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  flex-direction: column;
+  margin: 15vh 45vh;
+}
+
+.arts img {
+  width: 50vw;
+  height: 60vh;
+}

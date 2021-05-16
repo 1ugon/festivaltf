@@ -41,21 +41,8 @@ html {
   text-shadow: black 0.1em 0.1em 0.2em;
 }
 
-@media all and (device-width: 1024px) and (device-height: 1366px) and (orientation: portrait) {
-  .homeimg {
-    display: none;
-  }
-}
-
-/* iPad */
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
-  .homeimg {
-    display: none;
-  }
-}
-
-@media (max-width: 1650px) {
-  .homeimg {
+@media (max-width: 1000px) {
+  .homeimg-inv {
     display: none;
   }
 }
