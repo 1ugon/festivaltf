@@ -3,6 +3,8 @@ import React, { useEffect } from "react";
 import RoomImage from "../assets/baco.jpg";
 import imageMapResize from "image-map-resizer";
 
+import "../styles/room4.css";
+
 export default function Room4() {
   useEffect(() => {
     imageMapResize();
@@ -10,6 +12,11 @@ export default function Room4() {
 
   return (
     <div className="room4">
+      <iframe
+        src="https://rumbletalk.com/client/chat.php?7YgPV032"
+        title="chat"
+        className="chat"
+      ></iframe>
       <img
         className="homeimg"
         src={RoomImage}

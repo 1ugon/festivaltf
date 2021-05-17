@@ -11,7 +11,8 @@ import { Carousel } from "react-responsive-carousel";
 export default function Room3() {
   const [artsKali, setArtsKali] = useState(false);
   const [artsNico, setArtsNico] = useState(false);
-  const [artsSil, setArtsSil] = useState(false);
+  const [artsGaiola, setArtsGaiola] = useState(false);
+  const [artsLuiz, setArtsLuiz] = useState(false);
 
   useEffect(() => {
     imageMapResize();
@@ -20,19 +21,29 @@ export default function Room3() {
   function handleKali() {
     setArtsKali(true);
     setArtsNico(false);
-    setArtsSil(false);
+    setArtsGaiola(false);
+    setArtsLuiz(false);
   }
 
   function handleNico() {
     setArtsKali(false);
     setArtsNico(true);
-    setArtsSil(false);
+    setArtsGaiola(false);
+    setArtsLuiz(false);
   }
 
-  function handleSil() {
+  function handleGaiola() {
     setArtsKali(false);
     setArtsNico(false);
-    setArtsSil(true);
+    setArtsGaiola(true);
+    setArtsLuiz(false);
+  }
+
+  function handleLuiz() {
+    setArtsKali(false);
+    setArtsNico(false);
+    setArtsGaiola(false);
+    setArtsLuiz(true);
   }
 
   return (
@@ -87,7 +98,7 @@ export default function Room3() {
           </div>
         </Carousel>
       )}
-      {artsSil && (
+      {artsGaiola && (
         <Carousel className="arts" showThumbs={false} showStatus={false}>
           <div>
             <img
@@ -112,6 +123,31 @@ export default function Room3() {
           </div>
         </Carousel>
       )}
+      {artsLuiz && (
+        <Carousel className="arts" showThumbs={false} showStatus={false}>
+          <div>
+            <img
+              alt="dog"
+              src="https://cdn.pixabay.com/photo/2017/09/25/13/12/dog-2785074_960_720.jpg"
+            />
+            <p className="legend">Legend 1</p>
+          </div>
+          <div>
+            <img
+              alt="dog"
+              src="https://cdn.pixabay.com/photo/2019/01/11/02/49/dog-3926409_960_720.jpg"
+            />
+            <p className="legend">Legend 2</p>
+          </div>
+          <div>
+            <img
+              alt="dog"
+              src="https://cdn.pixabay.com/photo/2021/02/21/22/18/french-bulldog-6038122_960_720.jpg"
+            />
+            <p className="legend">Legend 3</p>
+          </div>
+        </Carousel>
+      )}
       <nav className="navbar">
         <ul>
           <li onClick={() => handleKali()}>KALI MERA</li>
@@ -120,7 +156,10 @@ export default function Room3() {
           <li onClick={() => handleNico()}>NICO</li>
         </ul>
         <ul>
-          <li onClick={() => handleSil()}>ONDE O SILENCIO ESTAVA (?)</li>
+          <li onClick={() => handleGaiola()}>GAIOLA QUE VOA</li>
+        </ul>
+        <ul>
+          <li onClick={() => handleLuiz()}>LUIZ SÁ</li>
         </ul>
       </nav>
       <img
