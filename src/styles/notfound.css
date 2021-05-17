@@ -21,24 +21,25 @@ html {
   top: 40vh;
   z-index: 1;
   width: 40vw;
-  color: red;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #000;
+  color: black;
+}
+
+.desc-inv h1,
+.desc-inv h2,
+.desc-inv h3 {
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .desc-inv h1 {
   font-size: 3rem;
-  text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .desc-inv h2 {
   font-size: 2rem;
-  text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .desc-inv h3 {
   font-size: 1.8rem;
-  text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 @media (max-width: 1000px) {

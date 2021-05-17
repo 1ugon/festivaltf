@@ -19,8 +19,8 @@ html {
   top: 40vh;
   z-index: 1;
   width: 40vw;
-  color: #f2bb4e;
-  -webkit-text-stroke-width: 1px;
+  color: whitesmoke;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #000;
 }
 
@@ -45,13 +45,13 @@ html {
 .prog {
   position: absolute;
   background-color: rgba(255, 255, 255, 0.8);
-  max-width: 40vw;
-  top: 50vh;
-  left: 5vw;
+  width: 42vw;
+  top: 40vh;
+  left: 2.5vw;
   border-style: solid;
   border-width: 1px;
   z-index: 5;
-  padding: 3vh;
+  padding: 2.5vh;
 }
 
 @media (max-width: 1600px) {
@@ -79,8 +79,5 @@ html {
     text-align: center;
     justify-content: center;
     padding: 30vh 5vh;
-    color: #f2bb4e;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #000;
   }
 }

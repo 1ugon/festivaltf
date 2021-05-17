@@ -5,22 +5,16 @@ import imageMapResize from "image-map-resizer";
 
 import "../styles/homepage.css";
 
-const prog = [
-  "12h20 – 12h50: The Hu.",
-  "13h45 – 14h30: Idles.",
-  "15h40 – 16h40: Perry Farrell's Kind Heaven Orchestra.",
-  "17h50 – 18h50: Cage The Elephant.",
-  "20h15 – 22h45: Guns N' Roses.",
-];
-
-const formatedProg = prog.map((sched) => {
-  return (
-    <>
-      <h2>{sched}</h2>
-      <br />
-    </>
-  );
-});
+const prog = {
+  dia: "SEGUNDA FEIRA 17 DE MAIO",
+  evento1: "14H30 ÀS 15H00: CORPAS EM CONVERSA - ABERTURA DO FESTIVAL",
+  sala1: "ONLINE - SALA 1",
+  evento2:
+    "15H00 ÀS 16H30: AS TRABALHADORAS DO SEXO E A PANDEMIA, COM FERNANDA BELIZÁRIO E MARIA",
+  sala2: "ONLINE - SALA 1",
+  evento3: `18H30 ÀS 20H00: RODA DE CONVERSA: "FEMINISMO E O MOVIMENTO LGBTQIA+: CRUZAMENTOS E RESISTÊNCIAS" COM REDE EX AQUO`,
+  sala3: "ONLINE - SALA 1",
+};
 
 export default function HomePage() {
   const [showProg, setShowProg] = useState(false);
@@ -41,7 +35,20 @@ export default function HomePage() {
 
   return (
     <div className="home">
-      {showProg && <div className="prog">{formatedProg}</div>}
+      {showProg && (
+        <div className="prog">
+          <h1>{prog.dia}</h1>
+          <br />
+          <h3>{prog.evento1}</h3>
+          <h4>{prog.sala1}</h4>
+          <br />
+          <h3>{prog.evento2}</h3>
+          <h4>{prog.sala2}</h4>
+          <br />
+          <h3>{prog.evento3}</h3>
+          <h4>{prog.sala3}</h4>
+        </div>
+      )}
       <img
         className="homeimg"
         src={HomeImage}
@@ -97,23 +104,22 @@ export default function HomePage() {
         Por favor entre por um computador para visualizar o site, obrigado!
       </h1>
       <div className="desc">
-        <h1>Bem vinde a nossa casa!</h1>
-        <h2>Clique em um cômodo para explorar esse espaço.</h2>
+        <h2>Sejam bem-vindes à nossa casa!</h2>
+        <h2>O Festival Transfeminista está no ar!</h2>
         <br />
-        <h3>
-          O festival transfeminsita teve sua 1º Edição em março de 2020 com
-          organização de algumas repúblicas de Coimbra.
-        </h3>
+        <h2>
+          As rodas de conversas, vocês podem acessar na sala 1; performances,
+          concertos e festa, na sala 2; exposições, na sala 3.
+        </h2>
         <br />
-        <h3>
-          Ao longo de uma semana acontecem várias atividades como performances,
-          rodas de conversa, filmes, instalações, concertos, etc.
-        </h3>
+        <h2>
+          Se você perdeu algo que gostaria muito te der participado, não se
+          preocupe! Todas as atividades ficarão salvas no arquivo.
+        </h2>
         <br />
-        <h3>
-          Tem como objetivo dar visibilidade a pessoas trans, não-binárias,
-          intersexo e mulheres cis.
-        </h3>
+        <h2>Se quiserem conversar entre si, confiram a casa de banho :)</h2>
+        <br />
+        <h2>Fiquem à vontade e não reparem a bagunça!</h2>
       </div>
     </div>
   );
