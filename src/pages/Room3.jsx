@@ -52,24 +52,16 @@ export default function Room3() {
         <Carousel className="arts" showThumbs={false} showStatus={false}>
           <div>
             <img
-              alt="dog"
-              src="https://cdn.pixabay.com/photo/2014/03/14/20/13/dog-287420_960_720.jpg"
+              alt="soon"
+              src="https://cdn.pixabay.com/photo/2016/08/04/09/05/coming-soon-1568623_960_720.jpg"
             />
-            <p className="legend">Legend 1</p>
-          </div>
-          <div>
-            <img
-              alt="dog"
-              src="https://cdn.pixabay.com/photo/2018/10/16/17/24/dog-3751980_960_720.jpg"
-            />
-            <p className="legend">Legend 2</p>
-          </div>
-          <div>
-            <img
-              alt="dog"
-              src="https://cdn.pixabay.com/photo/2017/09/01/11/59/white-2704022_960_720.jpg"
-            />
-            <p className="legend">Legend 3</p>
+            <p className="legend">
+              Kali Mera, 22 anos, artista não-binárie, ilustradore e designer. O
+              corpo, as vivências e as emoções são o foco do seu trabalho.
+              Navegar o poder do pensar passado para o papel em formas, cores, e
+              aceitando as metamorfoses, transformando-as em significado e em
+              sentir.
+            </p>
           </div>
         </Carousel>
       )}
@@ -77,24 +69,10 @@ export default function Room3() {
         <Carousel className="arts" showThumbs={false} showStatus={false}>
           <div>
             <img
-              alt="dog"
-              src="https://cdn.pixabay.com/photo/2019/04/27/16/32/dog-4160445_960_720.jpg"
+              alt="soon"
+              src="https://cdn.pixabay.com/photo/2016/08/04/09/05/coming-soon-1568623_960_720.jpg"
             />
-            <p className="legend">Legend 1</p>
-          </div>
-          <div>
-            <img
-              alt="dog"
-              src="https://cdn.pixabay.com/photo/2020/01/14/17/55/dog-4765784_960_720.jpg"
-            />
-            <p className="legend">Legend 2</p>
-          </div>
-          <div>
-            <img
-              alt="dog"
-              src="https://cdn.pixabay.com/photo/2017/08/07/06/34/weimaraner-2600694_960_720.jpg"
-            />
-            <p className="legend">Legend 3</p>
+            <p className="legend">Bio Nico</p>
           </div>
         </Carousel>
       )}
@@ -102,24 +80,10 @@ export default function Room3() {
         <Carousel className="arts" showThumbs={false} showStatus={false}>
           <div>
             <img
-              alt="dog"
-              src="https://cdn.pixabay.com/photo/2021/02/21/22/18/french-bulldog-6038122_960_720.jpg"
+              alt="soon"
+              src="https://cdn.pixabay.com/photo/2016/08/04/09/05/coming-soon-1568623_960_720.jpg"
             />
-            <p className="legend">Legend 1</p>
-          </div>
-          <div>
-            <img
-              alt="dog"
-              src="https://cdn.pixabay.com/photo/2019/01/11/02/49/dog-3926409_960_720.jpg"
-            />
-            <p className="legend">Legend 2</p>
-          </div>
-          <div>
-            <img
-              alt="dog"
-              src="https://cdn.pixabay.com/photo/2017/09/25/13/12/dog-2785074_960_720.jpg"
-            />
-            <p className="legend">Legend 3</p>
+            <p className="legend">Bio Gaiola Que Voa</p>
           </div>
         </Carousel>
       )}
@@ -127,24 +91,10 @@ export default function Room3() {
         <Carousel className="arts" showThumbs={false} showStatus={false}>
           <div>
             <img
-              alt="dog"
-              src="https://cdn.pixabay.com/photo/2017/09/25/13/12/dog-2785074_960_720.jpg"
+              alt="soon"
+              src="https://cdn.pixabay.com/photo/2016/08/04/09/05/coming-soon-1568623_960_720.jpg"
             />
-            <p className="legend">Legend 1</p>
-          </div>
-          <div>
-            <img
-              alt="dog"
-              src="https://cdn.pixabay.com/photo/2019/01/11/02/49/dog-3926409_960_720.jpg"
-            />
-            <p className="legend">Legend 2</p>
-          </div>
-          <div>
-            <img
-              alt="dog"
-              src="https://cdn.pixabay.com/photo/2021/02/21/22/18/french-bulldog-6038122_960_720.jpg"
-            />
-            <p className="legend">Legend 3</p>
+            <p className="legend">Bio Luiz Sá</p>
           </div>
         </Carousel>
       )}
