@@ -172,7 +172,6 @@ export default function Room3() {
         <area
           target=""
           alt=""
-          title=""
           href="/room1"
           coords="1659,718,1871,996"
           shape="rect"
@@ -180,7 +179,6 @@ export default function Room3() {
         <area
           target=""
           alt=""
-          title=""
           href="/"
           coords="661,0,747,53,842,78,937,68,985,49,1025,31,1058,3"
           shape="poly"

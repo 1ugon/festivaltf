@@ -18,9 +18,15 @@ export default function Room5() {
       />
       <map name="image-map">
         <area
+          target="_blank"
+          alt=""
+          href="https://drive.google.com/drive/folders/1W01nh1XE-puAQP-ESGUcIakcbRGGMfwL?usp=sharing"
+          coords="350,739,349,797,501,860,644,807,639,770,505,712"
+          shape="poly"
+        />
+        <area
           target=""
           alt=""
-          title=""
           href="/"
           coords="684,2,791,59,901,64,978,37,1046,3"
           shape="poly"
