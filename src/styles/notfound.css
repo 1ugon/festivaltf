@@ -22,6 +22,8 @@ html {
   z-index: 1;
   width: 40vw;
   color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
 }
 
 .desc-inv h1,
@@ -43,7 +45,8 @@ html {
 }
 
 @media (max-width: 1000px) {
-  .homeimg-inv {
+  .homeimg-inv,
+  .desc-inv {
     display: none;
   }
 }

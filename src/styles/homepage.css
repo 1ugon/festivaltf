@@ -20,7 +20,7 @@ html {
   z-index: 1;
   width: 40vw;
   color: whitesmoke;
-  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #000;
 }
 
@@ -31,15 +31,15 @@ html {
 }
 
 .desc h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .desc h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .desc h3 {
-  font-size: 1.8rem;
+  font-size: 1.3rem;
 }
 
 .prog {
@@ -60,11 +60,11 @@ html {
   }
 
   .desc h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .desc h3 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
