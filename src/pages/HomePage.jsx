@@ -2,19 +2,9 @@ import React, { useEffect, useState } from "react";
 
 import HomeImage from "../assets/homepage.jpg";
 import imageMapResize from "image-map-resizer";
+import ProgImage from "../assets/prog.jpeg";
 
 import "../styles/homepage.css";
-
-const prog = {
-  dia: "SEGUNDA FEIRA 17 DE MAIO",
-  evento1: "14H30 ÀS 15H00: CORPAS EM CONVERSA - ABERTURA DO FESTIVAL",
-  sala1: "ONLINE - SALA 1",
-  evento2:
-    "15H00 ÀS 16H30: AS TRABALHADORAS DO SEXO E A PANDEMIA, COM FERNANDA BELIZÁRIO E MARIA",
-  sala2: "ONLINE - SALA 1",
-  evento3: `18H30 ÀS 20H00: RODA DE CONVERSA: "FEMINISMO E O MOVIMENTO LGBTQIA+: CRUZAMENTOS E RESISTÊNCIAS" COM REDE EX AQUO`,
-  sala3: "ONLINE - SALA 1",
-};
 
 export default function HomePage() {
   const [showProg, setShowProg] = useState(false);
@@ -23,7 +13,7 @@ export default function HomePage() {
     imageMapResize();
   });
 
-  window.addEventListener("load", function (event) {
+  window.addEventListener("load", () => {
     document.querySelector(".door").addEventListener("mouseenter", () => {
       setShowProg(true);
     });
@@ -37,16 +27,7 @@ export default function HomePage() {
     <div className="home">
       {showProg && (
         <div className="prog">
-          <h1>{prog.dia}</h1>
-          <br />
-          <h3>{prog.evento1}</h3>
-          <h4>{prog.sala1}</h4>
-          <br />
-          <h3>{prog.evento2}</h3>
-          <h4>{prog.sala2}</h4>
-          <br />
-          <h3>{prog.evento3}</h3>
-          <h4>{prog.sala3}</h4>
+          <img src={ProgImage} alt="Festival Schedule" />
         </div>
       )}
       <img
@@ -104,7 +85,7 @@ export default function HomePage() {
         Por favor entre por um computador para visualizar o site, obrigado!
       </h1>
       <div className="desc">
-        <h2>Sejam bem-vindes à nossa casa!</h2>
+        <h1>Sejam bem-vindes à nossa casa!</h1>
         <h2>O Festival Transfeminista está no ar!</h2>
         <br />
         <h2>
