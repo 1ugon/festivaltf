@@ -8,6 +8,7 @@ import Room3 from "./pages/Room3";
 import Room4 from "./pages/Room4";
 import Room5 from "./pages/Room5";
 import NotFound from "./pages/NotFound";
+import Performances from "./pages/Performances";
 
 export default function Routes() {
   return (
@@ -32,6 +33,9 @@ export default function Routes() {
       </Route>
       <Route exact path="/room5">
         <Room5 />
+      </Route>
+      <Route exact path="/room2/perf">
+        <Performances />
       </Route>
       <Route path="*">
         <NotFound />

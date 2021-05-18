@@ -7,6 +7,7 @@ import "../styles/room3.css";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
+import { FaArrowRight } from "react-icons/fa";
 
 import Loc1 from "../assets/expo/gaiola/locs/loc1.jpeg";
 import Loc2 from "../assets/expo/gaiola/locs/loc2.jpeg";
@@ -151,8 +152,8 @@ export default function Room3() {
             <br />
             <h2>
               Para caminhar e ver as Gaiolas Que Voam clique nessa tela e seta
-              do teclado (->) e vá passando, caso deseja dar zoom deixe o mouse
-              sobre!
+              do teclado (<FaArrowRight />) e vá passando, caso deseja dar zoom
+              deixe o mouse sobre!
             </h2>
           </div>
           <div>
