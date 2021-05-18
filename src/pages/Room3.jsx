@@ -147,8 +147,8 @@ export default function Room3() {
             </h1>
             <br />
             <h2>
-              Para caminhar e ver as Gaiolas que voam clique seta direita do
-              teclado ( -> ) e vá passando, caso deseja dar zoom deixe o mouse
+              Para caminhar e ver as Gaiolas Que Voam clique nessa tela e seta
+              do teclado (->) e vá passando, caso deseja dar zoom deixe o mouse
               sobre!
             </h2>
           </div>
