@@ -133,16 +133,24 @@ export default function Room3() {
         </Carousel>
       )}
       {artsGaiola && (
-        <Carousel className="arts" showThumbs={false} showIndicators={false}>
-          <div>
-            <img
-              alt="map"
-              src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png"
-            />
-            <p className="legend">
+        <Carousel
+          className="arts"
+          showThumbs={false}
+          showIndicators={false}
+          useKeyboardArrows={true}
+          showArrows={false}
+        >
+          <div className="firstdiv">
+            <h1>
               Sabe quantas gaiolas tem voando por Coimbra? Fizemos o mapa com
               algumas delas, mas quem sabe vocês encontrem mais por aí.
-            </p>
+            </h1>
+            <br />
+            <h2>
+              Para caminhar e ver as Gaiolas que voam clique seta direita do
+              teclado ( -> ) e vá passando, caso deseja dar zoom deixe o mouse
+              sobre!
+            </h2>
           </div>
           <div>
             <img alt="location 1" src={Loc1} />
