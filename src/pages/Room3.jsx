@@ -17,16 +17,19 @@ import Loc6 from "../assets/expo/gaiola/locs/loc6.jpeg";
 import Loc7 from "../assets/expo/gaiola/locs/loc7.jpeg";
 import Loc8 from "../assets/expo/gaiola/locs/loc8.jpeg";
 
-import Juliana1 from "../assets/expo/gaiola/JulianaSilva1.jpg";
-import Juliana2 from "../assets/expo/gaiola/JulianaSilva2.jpg";
-import Juliana3 from "../assets/expo/gaiola/JulianaSilva3.jpg";
-import Juliana4 from "../assets/expo/gaiola/JulianaSilva4.jpg";
-import Juliana5 from "../assets/expo/gaiola/JulianaSilva5.jpg";
-import Juliana6 from "../assets/expo/gaiola/JulianaSilva6.jpg";
-import Juliana7 from "../assets/expo/gaiola/JulianaSilva7.jpg";
-import Juliana8 from "../assets/expo/gaiola/JulianaSilva8.jpg";
-import Juliana9 from "../assets/expo/gaiola/JulianaSilva9.jpg";
-import Juliana10 from "../assets/expo/gaiola/JulianaSilva10.jpg";
+import Juliana1 from "../assets/expo/gaiola/juliana/1.jpg";
+import Juliana2 from "../assets/expo/gaiola/juliana/2.jpg";
+import Juliana3 from "../assets/expo/gaiola/juliana/3.jpg";
+import Juliana4 from "../assets/expo/gaiola/juliana/4.jpg";
+import Juliana5 from "../assets/expo/gaiola/juliana/5.jpg";
+import Juliana6 from "../assets/expo/gaiola/juliana/6.jpg";
+import Juliana7 from "../assets/expo/gaiola/juliana/7.jpg";
+import Juliana8 from "../assets/expo/gaiola/juliana/8.jpg";
+import Juliana9 from "../assets/expo/gaiola/juliana/9.jpg";
+import Juliana10 from "../assets/expo/gaiola/juliana/10.jpg";
+import Juliana11 from "../assets/expo/gaiola/juliana/11.jpg";
+import Juliana12 from "../assets/expo/gaiola/juliana/12.jpg";
+import Juliana13 from "../assets/expo/gaiola/juliana/13.jpg";
 
 import Rosa1 from "../assets/expo/gaiola/RosaMendes1.jpg";
 import Rosa2 from "../assets/expo/gaiola/RosaMendes2.jpg";
@@ -190,6 +193,15 @@ export default function Room3() {
           </div>
           <div>
             <img alt="Juliana" src={Juliana10} />
+          </div>
+          <div>
+            <img alt="Juliana" src={Juliana11} />
+          </div>
+          <div>
+            <img alt="Juliana" src={Juliana12} />
+          </div>
+          <div>
+            <img alt="Juliana" src={Juliana13} />
           </div>
           <div>
             <img alt="location 2" src={Loc2} />

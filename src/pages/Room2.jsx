@@ -3,6 +3,11 @@ import React, { useEffect } from "react";
 import RoomImage from "../assets/marias.jpg";
 import imageMapResize from "image-map-resizer";
 
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
+
+import "../styles/room2.css";
+
 export default function Room2() {
   useEffect(() => {
     imageMapResize();
@@ -10,6 +15,23 @@ export default function Room2() {
 
   return (
     <div className="room2">
+      {true && (
+        <Carousel className="perf" showThumbs={false}>
+          <div>
+            <img
+              alt="soon"
+              src="https://www.youtube.com/watch?v=JcWdetJFWKI&ab_channel=ElaraMiller"
+            />
+            <p className="legend">
+              Kali Mera, 22 anos, artista não-binárie, ilustradore e designer. O
+              corpo, as vivências e as emoções são o foco do seu trabalho.
+              Navegar o poder do pensar passado para o papel em formas, cores, e
+              aceitando as metamorfoses, transformando-as em significado e em
+              sentir.
+            </p>
+          </div>
+        </Carousel>
+      )}
       <img
         className="homeimg"
         src={RoomImage}

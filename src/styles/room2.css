@@ -1,0 +1,9 @@
+.perf {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  flex-direction: column;
+  margin: 10vh 45vh;
+  z-index: 5;
+  transition: 1s;
+}
