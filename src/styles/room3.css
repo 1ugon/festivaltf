@@ -33,10 +33,10 @@
   justify-content: center;
   position: absolute;
   flex-direction: column;
-  margin: 15vh 45vh;
+  margin: 10vh 45vh;
 }
 
 .arts img {
-  width: 50vw;
-  height: 60vh;
+  height: 80vh;
+  object-fit: scale-down;
 }
