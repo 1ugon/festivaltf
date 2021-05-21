@@ -9,6 +9,7 @@ import Room4 from "./pages/Room4";
 import Room5 from "./pages/Room5";
 import NotFound from "./pages/NotFound";
 import Performances from "./pages/Performances";
+import Podcast from "./pages/Podcast";
 
 export default function Routes() {
   return (
@@ -34,8 +35,11 @@ export default function Routes() {
       <Route exact path="/room5">
         <Room5 />
       </Route>
-      <Route exact path="/room2/perf">
+      <Route exact path="/room2/performances">
         <Performances />
+      </Route>
+      <Route exact path="/room4/podcast">
+        <Podcast />
       </Route>
       <Route path="*">
         <NotFound />

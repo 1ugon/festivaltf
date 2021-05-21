@@ -2,15 +2,18 @@ import React from "react";
 
 import { FaArrowRight, FaUndo } from "react-icons/fa";
 
-import "../styles/performances.css";
+import "../styles/otherpages.css";
 
 export default function Performances() {
   return (
-    <div className="perfcontainer">
-      <a href="/room2">
-        <FaUndo size={50} />
-        Voltar
-      </a>
+    <div className="container">
+      <div className="goback">
+        <a href="/room2">
+          <FaUndo size={50} />
+          Voltar
+        </a>
+      </div>
+
       <div className="performances">
         <h1 className="dev">
           Por favor entre por um computador para visualizar o site, obrigado!

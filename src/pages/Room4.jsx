@@ -25,9 +25,8 @@ export default function Room4() {
       />
       <map name="image-map">
         <area
-          target="_blank"
           alt=""
-          href="https://www.facebook.com/festivaltransfeminista/"
+          href="/room4/podcast"
           coords="1722,751,1478,648"
           shape="rect"
         />
