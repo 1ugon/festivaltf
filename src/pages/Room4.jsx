@@ -13,10 +13,14 @@ export default function Room4() {
   return (
     <div className="room4">
       <iframe
-        src="https://rumbletalk.com/client/chat.php?7YgPV032"
-        title="chat"
+        src="https://xat.com/embed/chat.php#id=220505682&gn=FestivalTransfeminista"
+        width="650"
+        height="486"
+        frameborder="0"
+        scrolling="no"
         className="chat"
-      ></iframe>
+        title="chat"
+      />
       <img
         className="homeimg"
         src={RoomImage}

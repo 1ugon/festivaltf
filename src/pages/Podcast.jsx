@@ -4,7 +4,7 @@ import { FaUndo } from "react-icons/fa";
 
 import ReactAudioPlayer from "react-audio-player";
 
-import PrimeiroEp from "../assets/podcast/firstep.mp3";
+import PrimeiroEp from "../assets/podcast/primeiro.mp3";
 
 import "../styles/otherpages.css";
 
@@ -21,7 +21,12 @@ export default function Performances() {
       <div className="podcasts">
         <h1>PODCAST SEM DESCANSO</h1>
         <h2>1º EP - PLURALIDADE DOS FEMINISMOS</h2>
-        <ReactAudioPlayer src={PrimeiroEp} controls className="player" />
+        <ReactAudioPlayer
+          src={PrimeiroEp}
+          controls
+          volume={0.4}
+          className="player"
+        />
       </div>
     </div>
   );
