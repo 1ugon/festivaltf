@@ -24,7 +24,7 @@ export default function Performances() {
         <ReactAudioPlayer
           src={PrimeiroEp}
           controls
-          volume={0.4}
+          volume={0.3}
           className="player"
         />
       </div>

@@ -20,7 +20,7 @@ export default function Room4() {
         scrolling="no"
         className="chat"
         title="chat"
-      />
+      ></iframe>
       <img
         className="homeimg"
         src={RoomImage}
