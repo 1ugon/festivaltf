@@ -2,10 +2,6 @@ import React from "react";
 
 import { FaUndo } from "react-icons/fa";
 
-import ReactAudioPlayer from "react-audio-player";
-
-import PrimeiroEp from "../assets/podcast/primeiro.mp3";
-
 import "../styles/otherpages.css";
 
 export default function Performances() {
@@ -19,14 +15,13 @@ export default function Performances() {
       </div>
 
       <div className="podcasts">
-        <h1>PODCAST SEM DESCANSO</h1>
-        <h2>1º EP - PLURALIDADE DOS FEMINISMOS</h2>
-        <ReactAudioPlayer
-          src={PrimeiroEp}
-          controls
-          volume={0.3}
-          className="player"
-        />
+        <iframe
+          src="https://castbox.fm/app/castbox/player/id4133196?v=8.22.11&autoplay=0"
+          frameborder="0"
+          width="100%"
+          height="500"
+          title="podcast1"
+        ></iframe>
       </div>
     </div>
   );
