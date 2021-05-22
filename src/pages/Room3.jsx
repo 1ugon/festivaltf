@@ -84,6 +84,13 @@ import Luis4 from "../assets/expo/luizsa/quatro.jpg";
 import Luis5 from "../assets/expo/luizsa/cinco.jpg";
 import Luis6 from "../assets/expo/luizsa/seis.jpg";
 
+import Nico1 from "../assets/expo/nico/1.JPG";
+import Nico2 from "../assets/expo/nico/2.JPG";
+import Nico3 from "../assets/expo/nico/3.JPG";
+import Nico4 from "../assets/expo/nico/4.JPG";
+import Nico5 from "../assets/expo/nico/5.JPG";
+import Nico6 from "../assets/expo/nico/6.JPG";
+
 export default function Room3() {
   const [artsKali, setArtsKali] = useState(false);
   const [artsNico, setArtsNico] = useState(false);
@@ -187,11 +194,41 @@ export default function Room3() {
           showArrows={false}
         >
           <div>
-            <img
-              alt="soon"
-              src="https://cdn.pixabay.com/photo/2016/08/04/09/05/coming-soon-1568623_960_720.jpg"
-            />
-            <p className="legend">Bio Nico</p>
+            <div className="firstdiv">
+              <h2>
+                Nessa obra de 3 partes faz alegoria a transição hormonal expondo
+                sentimentos como de não pertencimento ao corpo, peso da
+                intervenção médica ao corpo trans e a liberdade da corpa
+                não-binária.
+              </h2>
+              <br />
+              <h2>
+                Para caminhar e ver a exposição clique nessa tela e seta do
+                teclado (<FaArrowRight />) e vá passando!
+              </h2>
+            </div>
+          </div>
+          <div>
+            <img alt="Nico" src={Nico1} />
+            <p className="legend">
+              Nicolas Motta, brasiliense, tem 21 anos, é um artista e designer
+              transmasculino não-binário.
+            </p>
+          </div>
+          <div>
+            <img alt="Nico" src={Nico2} />
+          </div>
+          <div>
+            <img alt="Nico" src={Nico3} />
+          </div>
+          <div>
+            <img alt="Nico" src={Nico4} />
+          </div>
+          <div>
+            <img alt="Nico" src={Nico5} />
+          </div>
+          <div>
+            <img alt="Nico" src={Nico6} />
           </div>
         </Carousel>
       )}
@@ -471,9 +508,9 @@ export default function Room3() {
         <ul>
           <li onClick={() => handleKali()}>KALI MERA</li>
         </ul>
-        {/* <ul>
+        <ul>
           <li onClick={() => handleNico()}>NICO</li>
-        </ul> */}
+        </ul>
         <ul>
           <li onClick={() => handleLuiz()}>LUIZ SÁ</li>
         </ul>
