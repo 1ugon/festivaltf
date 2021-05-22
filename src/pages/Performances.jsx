@@ -41,6 +41,15 @@ export default function Performances() {
             <FaArrowRight className="icon" />
             <h2>"GO OUT(SIDE) AND SMELL THE SUN" DE A. VAS</h2>
           </a>
+          <h1>CONCERTOS</h1>
+          <a
+            href="https://www.youtube.com/watch?v=uogN1gjYxzc&ab_channel=Unrap%C3%A1transquiloFTM."
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaArrowRight className="icon" />
+            <h2>UN PIRATA SEN PARCHE</h2>
+          </a>
         </div>
       </div>
     </div>
