@@ -36,12 +36,12 @@ import Rosa1 from "../assets/expo/gaiola/RosaMendes1.jpg";
 import Rosa2 from "../assets/expo/gaiola/RosaMendes2.jpg";
 import Rosa3 from "../assets/expo/gaiola/RosaMendes3.jpg";
 
-import Xipipa1 from "../assets/expo/gaiola/Xipipa1.jpg";
-import Xipipa2 from "../assets/expo/gaiola/Xipipa2.jpg";
-import Xipipa3 from "../assets/expo/gaiola/Xipipa3.jpg";
-import Xipipa4 from "../assets/expo/gaiola/Xipipa4.jpg";
-import Xipipa5 from "../assets/expo/gaiola/Xipipa5.jpg";
-import Xipipa6 from "../assets/expo/gaiola/Xipipa6.jpg";
+import Xipipa1 from "../assets/expo/gaiola/xipipa/1.jpg";
+import Xipipa2 from "../assets/expo/gaiola/xipipa/2.jpg";
+import Xipipa3 from "../assets/expo/gaiola/xipipa/3.jpg";
+import Xipipa4 from "../assets/expo/gaiola/xipipa/4.jpg";
+import Xipipa5 from "../assets/expo/gaiola/xipipa/5.jpg";
+import Xipipa6 from "../assets/expo/gaiola/xipipa/6.jpg";
 
 import Mag11 from "../assets/expo/gaiola/MagRodrigues11.jpg";
 
@@ -67,6 +67,22 @@ import Catarina1 from "../assets/expo/gaiola/CatarinaCasaca1.jpg";
 import Catarina2 from "../assets/expo/gaiola/CatarinaCasaca2.jpg";
 import Catarina3 from "../assets/expo/gaiola/CatarinaCasaca3.jpg";
 import Catarina4 from "../assets/expo/gaiola/CatarinaCasaca4.jpg";
+
+import Kali1 from "../assets/expo/kali/kali.jpg";
+import Kali2 from "../assets/expo/kali/kali2.jpg";
+import Kali3 from "../assets/expo/kali/kali3.jpg";
+import Kali4 from "../assets/expo/kali/kali4.jpg";
+import Kali5 from "../assets/expo/kali/kali5.jpg";
+import Kali6 from "../assets/expo/kali/kali6.jpg";
+import Kali7 from "../assets/expo/kali/kali7.jpg";
+import Kali8 from "../assets/expo/kali/kali8.jpg";
+
+import Luis1 from "../assets/expo/luizsa/um.jpg";
+import Luis2 from "../assets/expo/luizsa/dois.jpg";
+import Luis3 from "../assets/expo/luizsa/tres.jpg";
+import Luis4 from "../assets/expo/luizsa/quatro.jpg";
+import Luis5 from "../assets/expo/luizsa/cinco.jpg";
+import Luis6 from "../assets/expo/luizsa/seis.jpg";
 
 export default function Room3() {
   const [artsKali, setArtsKali] = useState(false);
@@ -109,12 +125,28 @@ export default function Room3() {
   return (
     <div className="room3">
       {artsKali && (
-        <Carousel className="arts" showThumbs={false}>
+        <Carousel
+          className="arts"
+          showThumbs={false}
+          showIndicators={false}
+          useKeyboardArrows={true}
+          showArrows={false}
+        >
           <div>
-            <img
-              alt="soon"
-              src="https://cdn.pixabay.com/photo/2016/08/04/09/05/coming-soon-1568623_960_720.jpg"
-            />
+            <div className="firstdiv">
+              <h2>
+                Uma coletânea de sentires pandémicos, relações conturbadas com o
+                ser, o corpo e a solidão.
+              </h2>
+              <br />
+              <h2>
+                Para caminhar e ver a exposição clique nessa tela e seta do
+                teclado (<FaArrowRight />) e vá passando!
+              </h2>
+            </div>
+          </div>
+          <div>
+            <img alt="Kali" src={Kali1} />
             <p className="legend">
               Kali Mera, 22 anos, artista não-binárie, ilustradore e designer. O
               corpo, as vivências e as emoções são o foco do seu trabalho.
@@ -123,10 +155,37 @@ export default function Room3() {
               sentir.
             </p>
           </div>
+          <div>
+            <img alt="Kali" src={Kali2} />
+          </div>
+          <div>
+            <img alt="Kali" src={Kali3} />
+          </div>
+          <div>
+            <img alt="Kali" src={Kali4} />
+          </div>
+          <div>
+            <img alt="Kali" src={Kali5} />
+          </div>
+          <div>
+            <img alt="Kali" src={Kali6} />
+          </div>
+          <div>
+            <img alt="Kali" src={Kali7} />
+          </div>
+          <div>
+            <img alt="Kali" src={Kali8} />
+          </div>
         </Carousel>
       )}
       {artsNico && (
-        <Carousel className="arts" showThumbs={false}>
+        <Carousel
+          className="arts"
+          showThumbs={false}
+          showIndicators={false}
+          useKeyboardArrows={true}
+          showArrows={false}
+        >
           <div>
             <img
               alt="soon"
@@ -145,15 +204,14 @@ export default function Room3() {
           showArrows={false}
         >
           <div className="firstdiv">
-            <h1>
+            <h2>
               Sabe quantas gaiolas tem voando por Coimbra? Fizemos o mapa com
               algumas delas, mas quem sabe vocês encontrem mais por aí.
-            </h1>
+            </h2>
             <br />
             <h2>
-              Para caminhar e ver as Gaiolas Que Voam clique nessa tela e seta
-              do teclado (<FaArrowRight />) e vá passando, caso deseja dar zoom
-              deixe o mouse sobre!
+              Para caminhar e ver a exposição clique nessa tela e seta do
+              teclado (<FaArrowRight />) e vá passando!
             </h2>
           </div>
           <div>
@@ -350,13 +408,59 @@ export default function Room3() {
         </Carousel>
       )}
       {artsLuiz && (
-        <Carousel className="arts" showThumbs={false} showStatus={false}>
+        <Carousel
+          className="arts"
+          showThumbs={false}
+          showIndicators={false}
+          useKeyboardArrows={true}
+          showArrows={false}
+        >
           <div>
-            <img
-              alt="soon"
-              src="https://cdn.pixabay.com/photo/2016/08/04/09/05/coming-soon-1568623_960_720.jpg"
-            />
-            <p className="legend">Bio Luiz Sá</p>
+            <div className="firstdiv">
+              <h2>
+                Um desvio dos trabalhos anteriores, a exposição atual é formada
+                exclusivamente por obras rápidas e pessoais. Intimista, esses
+                trabalhos não foram criados sob a finalidade de se tornar
+                obras-prontas, mas, antes, de pontuar e escancarar flutuações do
+                sub-consciente, num esforço para que estas não fossem
+                re-cobertas por uma eventual racionalização do eu-artista. As
+                obras escolhidas pela artista – destilação dos questionamentos,
+                medos e expressões – exploram temáticas de gênero, solidão,
+                auto-imagem mediante reflexões sobre o seu próprio eu-corpo.
+              </h2>
+              <br />
+              <h2>
+                Para caminhar e ver a exposição clique nessa tela e seta do
+                teclado (<FaArrowRight />) e vá passando!
+              </h2>
+            </div>
+          </div>
+          <div>
+            <img alt="Luiz" src={Luis1} />
+            <p className="legend">
+              Luiz Sá é artista brasileire e não-binárie. Voltade para as artes
+              cênicas e plásticas, procura explorar diálogos com o ser-corpo,
+              vivo, tridimensional e o corpo representado, subentendido. O
+              produzir artístico é fruto das corporeidades que a cria e agente
+              nos sujeitos que sensibiliza; um mundo dentro do mundo com
+              potencial transformativo quando acessado — e criado — por corpos
+              dissidentes.
+            </p>
+          </div>
+          <div>
+            <img alt="Luis" src={Luis2} />
+          </div>
+          <div>
+            <img alt="Luis" src={Luis3} />
+          </div>
+          <div>
+            <img alt="Luis" src={Luis4} />
+          </div>
+          <div>
+            <img alt="Luis" src={Luis5} />
+          </div>
+          <div>
+            <img alt="Luis" src={Luis6} />
           </div>
         </Carousel>
       )}
@@ -364,15 +468,15 @@ export default function Room3() {
         <ul>
           <li onClick={() => handleGaiola()}>GAIOLA QUE VOA</li>
         </ul>
-        {/*         <ul>
+        <ul>
           <li onClick={() => handleKali()}>KALI MERA</li>
         </ul>
-        <ul>
+        {/* <ul>
           <li onClick={() => handleNico()}>NICO</li>
-        </ul>
+        </ul> */}
         <ul>
           <li onClick={() => handleLuiz()}>LUIZ SÁ</li>
-        </ul> */}
+        </ul>
       </nav>
       <img
         className="homeimg"
