@@ -45,8 +45,24 @@ html {
 }
 
 @media (max-width: 1000px) {
-  .homeimg-inv,
-  .desc-inv {
+  .dev {
     display: none;
+  }
+
+  .desc-inv {
+    left: 2.5vh;
+    -webkit-text-stroke-width: 0px;
+  }
+
+  .desc-inv h1 {
+    font-size: 1.2rem;
+  }
+
+  .desc-inv h2 {
+    font-size: 1rem;
+  }
+
+  .desc-inv h3 {
+    font-size: 0.8rem;
   }
 }

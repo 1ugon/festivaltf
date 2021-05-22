@@ -20,7 +20,6 @@ export default function Performances() {
         </h1>
         <div className="performance">
           <h1>PERFORMANCES</h1>
-          <h1>18 DE MAIO</h1>
           <a
             href="https://www.youtube.com/watch?v=JcWdetJFWKI&ab_channel=ElaraMiller"
             target="_blank"

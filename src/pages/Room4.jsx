@@ -49,9 +49,6 @@ export default function Room4() {
           shape="poly"
         />
       </map>
-      <h1 className="dev">
-        Por favor entre por um computador para visualizar o site, obrigado!
-      </h1>
     </div>
   );
 }

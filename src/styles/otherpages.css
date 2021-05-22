@@ -52,3 +52,17 @@
 .podcasts .player {
   margin: 3vh 5vh;
 }
+
+@media (max-width: 1000px) {
+  .container {
+    padding: 5vh 2vh;
+  }
+
+  .performances {
+    width: 84vw;
+  }
+
+  .podcasts {
+    width: 84vw;
+  }
+}

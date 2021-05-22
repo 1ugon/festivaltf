@@ -81,26 +81,29 @@ export default function HomePage() {
           shape="rect"
         />
       </map>
-      <h1 className="dev">
-        Por favor entre por um computador para visualizar o site, obrigado!
-      </h1>
       <div className="desc">
         <h1>Sejam bem-vindes à nossa casa!</h1>
         <h2>O Festival Transfeminista está no ar!</h2>
         <br />
-        <h2>
+        <h2 className="dev">
           As rodas de conversas, vocês podem acessar na sala 1; performances,
           concertos e festa, na sala 2; exposições, na sala 3.
         </h2>
         <br />
-        <h2>
+        <h2 className="dev">
           Se você perdeu algo que gostaria muito te der participado, não se
           preocupe! Todas as atividades ficarão salvas no arquivo.
         </h2>
         <br />
-        <h2>Se quiserem conversar entre si, confiram a casa de banho :)</h2>
+        <h2 className="dev">
+          Se quiserem conversar entre si, confiram a casa de banho :)
+        </h2>
         <br />
-        <h2>Fiquem à vontade e não reparem a bagunça!</h2>
+        <h2 className="dev">Fiquem à vontade e não reparem a bagunça!</h2>
+        <h3 className="descdev">
+          Essa é uma versão simplificada do site, por favor entre por um
+          computador para ver tudo do jeito que planejamos!
+        </h3>
       </div>
     </div>
   );
