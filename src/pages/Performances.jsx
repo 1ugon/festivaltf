@@ -15,9 +15,6 @@ export default function Performances() {
       </div>
 
       <div className="performances">
-        <h1 className="dev">
-          Por favor entre por um computador para visualizar o site, obrigado!
-        </h1>
         <div className="performance">
           <h1>PERFORMANCES</h1>
           <a

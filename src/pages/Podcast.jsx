@@ -15,19 +15,13 @@ export default function Performances() {
       </div>
 
       <div className="podcasts">
+        <h1>PODCAST</h1>
         <iframe
           src="https://castbox.fm/app/castbox/player/id4133196?v=8.22.11&autoplay=0"
           frameborder="0"
           width="100%"
           height="500"
-          title="podcast1"
-        ></iframe>
-        <iframe
-          src="https://castbox.fm/app/castbox/player/id4133196/id384764412?v=8.22.11&autoplay=0"
-          frameborder="0"
-          width="100%"
-          height="500"
-          title="podcast2"
+          title="podcast"
         ></iframe>
       </div>
     </div>
