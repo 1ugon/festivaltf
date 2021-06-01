@@ -31,6 +31,13 @@ export default function Room5() {
           coords="684,2,791,59,901,64,978,37,1046,3"
           shape="poly"
         />
+        <area
+          target="_blank"
+          alt=""
+          href="https://www.youtube.com/watch?v=8UQpVdQxaIs&amp;ab_channel=FestivalTransfeminista"
+          coords="971,146,1103,120,1653,166,1633,1044,1607,1078,1519,1075,1310,1075,949,914"
+          shape="poly"
+        />
       </map>
     </div>
   );
