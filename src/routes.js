@@ -10,6 +10,7 @@ import Room5 from "./pages/Room5";
 import NotFound from "./pages/NotFound";
 import Performances from "./pages/Performances";
 import Podcast from "./pages/Podcast";
+import Rodas from "./pages/Rodas";
 
 export default function Routes() {
   return (
@@ -40,6 +41,9 @@ export default function Routes() {
       </Route>
       <Route exact path="/room4/podcast">
         <Podcast />
+      </Route>
+      <Route exact path="/room5/rodas">
+        <Rodas />
       </Route>
       <Route path="*">
         <NotFound />

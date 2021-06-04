@@ -53,6 +53,24 @@
   margin: 3vh 5vh;
 }
 
+.rodas {
+  margin-top: 5vh;
+  background-color: whitesmoke;
+  width: 50vw;
+  padding: 2.5vh;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.rodas h2 {
+  margin: 1vh 0;
+}
+
+.rodas h2,
+.rodas iframe {
+  margin-left: 10vw;
+}
+
 @media (max-width: 1000px) {
   .container {
     padding: 5vh 2vh;
